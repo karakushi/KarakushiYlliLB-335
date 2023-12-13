@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "KarakushiYlliLB-335",
+    "slug": "KarakushiYlliLB-335",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "Your message about camera usage",
+        "NSMicrophoneUsageDescription": "Your message about microphone usage"
+      },
+      "bundleIdentifier": "com.karakushi.KarakushiYlliLB335"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "75e464ad-0538-4e7e-97b8-be57515583e1"
+      }
+    }
+  }
+}
